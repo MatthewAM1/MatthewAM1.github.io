@@ -1,0 +1,122 @@
+.service-box {
+    background-color: var(--light-gray-blue);
+    display: flex;
+}
+
+.galery-box {
+    background-color: var(--very-light-gray);
+    display: flex;
+}
+
+.box-container {
+    margin: auto;
+    width: 65%;
+}
+
+/* Text wrapper */
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 50px 20px;
+}
+
+.service-box .box-container .text-wrapper {
+    text-align: center;
+}
+
+.text-wrapper .secondary-text-title {
+    font-size: 31px;
+}
+
+.service-box .box-container .text-wrapper .text-paragraph {
+    color: var(--gray-blue);
+    margin: 0 40px;
+    font-size: 18px;
+}
+
+.text-wrapper .text-paragraph {
+    color: var(--gray-blue);
+    font-size: 18px;
+}
+
+.harga {
+    color: black;
+}
+/* End text wrapper */
+
+/* Service box */
+.box-wrapper {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.box-content-link{
+    text-decoration: none;
+    width: 100%;
+}
+
+.box-content {
+    background-color: #fff;
+    height: auto;
+    transition: 0.2s linear;
+    width: 100%;
+}
+
+.box-content:hover {
+    transform: scale(1.05);
+}
+
+
+.box-image {
+    border-radius: 6px 6px 0px 0px;
+    height: 310px;
+    width: 100%;
+}
+
+.box-text-wrapper {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 270px;
+    padding: 25px 30px;
+    width: auto;
+}
+
+.box-text-wrapper .text-subtitle {
+    color: #000;
+    font-size: 25px;
+}
+
+.box-text-wrapper .text-paragraph {
+    color: var(--gray-blue);
+}
+
+/* Service box */
+
+/* Galery box */
+.galery-box .box-container {
+    width: 80%;
+}
+
+.galery-box .box-container .box-wrapper .box-content {
+    width: 100%;
+}
+
+.galery-box .box-container .box-wrapper {
+    gap: 40px;
+}
+
+.galery-box .box-container .box-wrapper .box-content .box-image {
+    height: 320px;
+}
+
+.galery-box .box-container .box-wrapper .box-content .box-text-wrapper{
+    height: 200px;
+    text-align: center;
+}
+/* End galery */

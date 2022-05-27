@@ -1,0 +1,9 @@
+.title {
+    background-color: var(--very-light-gray);
+    padding: 20px;
+}
+
+.title-content {
+    font-size: 36px;
+    text-align: center;
+}

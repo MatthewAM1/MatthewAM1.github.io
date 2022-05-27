@@ -1,0 +1,57 @@
+.half-content {
+    background-color: var(--very-light-gray);
+    display: flex;
+}
+
+.half-text-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.half-text-wrapper div {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 50%;
+}
+
+.half-text-wrapper div .secondary-text-title {
+    font-size: 36px;
+}
+
+.half-text-wrapper div .text-paragraph {
+    color: var(--gray-blue);
+    font-size: 18px;
+}
+
+.btn-more {
+    align-self: flex-start;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.btn-more:hover {
+    color: var(--red-orange);
+}
+
+.half-image-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.half-image {
+    border-radius: 30px;
+    height: 85%;
+    width: 70%;
+}
+
+.location-padding {
+    padding: 30px 0;
+}
