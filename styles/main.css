@@ -1,0 +1,18 @@
+@import url("./variables.css");
+@import url("./fonts.css");
+@import url("./header.css");
+@import url("./banner.css");
+@import url("./half-content.css");
+@import url("./box.css");
+@import url("./footer.css");
+@import url("./title.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bacol2 {
+    background-color: var(--light-gray-blue);
+}
